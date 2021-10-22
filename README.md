@@ -1,5 +1,5 @@
 # Auto_sendlog_to_mail
-##automation of sending to an email the py results
+## Automation of sending to an email the py results
 
 ## Installation
 `pip3 install -r requirements.txt`
