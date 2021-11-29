@@ -1,4 +1,3 @@
-"""
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -32,4 +31,3 @@ except Exception as e:
 print(f"exception {e} occurred")
 SendEmail(e, "to@gmail.com", "from@gmail.com", "password", "Subject")
 quit() # Better to exit if you are using generalized Exceptions though.
-"""
