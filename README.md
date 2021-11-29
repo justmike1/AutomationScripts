@@ -1,5 +1,5 @@
-# Auto_sendlog_to_mail
-## Automation of sending script's log to an email of choice.
+# Automation scripts
+## Automation of various things I encountered from work or cool things I want to save.
 ### Follow the comment's instructions in the script
 
 
