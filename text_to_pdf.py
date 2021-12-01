@@ -27,3 +27,15 @@ def text_to_pdf(text, filename):
             pdf.cell(0, fontsize_mm, wrap, ln=1)
 
     pdf.output(filename, 'F')
+    
+"""
+if you dont want to wrap use:
+    for line in splitted:
+        line = line[:120]
+        if len(line) == 0:
+            pdf.ln()
+        else:
+            pdf.cell(0, fontsize_mm, line, ln=1)
+            
+instead of the stated loop
+"""
