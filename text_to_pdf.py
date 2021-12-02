@@ -3,7 +3,7 @@ import textwrap
 
 
 def text_to_pdf(text, filename):
-    a3_width_mm = 297
+    a3_width_mm = 297       # change to 210 if you use A4 format
     pt_to_mm = 0.35
     fontsize_pt = 10
     fontsize_mm = fontsize_pt * pt_to_mm
