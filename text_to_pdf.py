@@ -9,7 +9,7 @@ def text_to_pdf(text, filename):
     fontsize_mm = fontsize_pt * pt_to_mm
     margin_bottom_mm = 10
     character_width_mm = 7 * pt_to_mm
-    width_text = a3_width_mm / character_width_mm
+    width_text = a3_width_mm / character_width_mm       # can just use width_text = 120 if you are mainly on A3
 
     pdf = FPDF(orientation='P', unit='mm', format='A3')
     pdf.set_auto_page_break(True, margin=margin_bottom_mm)
