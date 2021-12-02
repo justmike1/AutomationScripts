@@ -1,4 +1,4 @@
-#   You don't need any telegram module or curl scripts
+#   You don't need any telegram libraries or curl scripts
 import requests as r
 
 base_url = "https://api.telegram.org/YOURBOTID/sendDocument"
